@@ -128,7 +128,7 @@ body {
   color: #404bbf;
 }
 .main {
-  background: #2e2f42;
+  background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(
@@ -459,6 +459,9 @@ body {
 .input-footer {
   display: flex;
   gap:24px
+}
+.input-container {
+  margin-left: 80px;
 }
 .form-input::placeholder {
   color: #ffffff;
