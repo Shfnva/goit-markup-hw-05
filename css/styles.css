@@ -440,3 +440,41 @@ body {
 .footer-link-content {
   margin-right: 120px;
 }
+.form-input {
+  border-radius: 4px;
+  border: 1px solid  #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: #2e2f42;
+  margin-right: 24px;
+}
+.form-input::placeholder {
+  color:  #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2; 
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.button-footer {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color:  #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background-color:  #4D5AE5;
+  border: none;
+}
+.button-icon {
+  color: #ffffff;
+}
