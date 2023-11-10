@@ -536,12 +536,10 @@ body {
   padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-btn:hover,
-.modal-close-btn:focus  {
+.modal-close-btn:hover, .modal-close-btn-icon:hover,
+.modal-close-btn:focus  .modal-close-btn-icon:focus {
   background-color: #404bbf;
-}
-.modal-close-btn-icon:hover,
-.modal-close-btn-icon:focus {
+  border: none;
   fill: #ffffff;
 }
 .modal-close-btn-icon {
@@ -658,6 +656,7 @@ body {
   .review-form-own-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
 .review-form-checkbox:focus
   + .review-form-checkbox-label
