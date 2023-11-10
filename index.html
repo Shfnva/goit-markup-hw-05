@@ -498,17 +498,17 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="review-form-wrapper">
-            <label class="review-form-label" for="user-first-name">Name</label>
+            <label class="review-form-label" for="user-name">Name</label>
             <div class="review-form-input-wrapper">
               <input
                 type="text"
                 class="review-form-input"
-                name="user-first-name"
+                name="user-name"
                 required
                 pattern="[a-zA-Zа-яА-ЯїЇіІєЄйЙґҐʼ"
-                id="user_first_name"
+                id="user-name"
               />
-              <svg class="review-form-icon" width="18" height="18">
+              <svg class="review-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -525,7 +525,7 @@
                 title="xxx-xxx-xx-xx"
                 id="user-phone-number"
               />
-              <svg class="review-form-icon" width="18" height="18">
+              <svg class="review-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -540,15 +540,15 @@
                 required
                 id="user-email"
               />
-              <svg class="review-form-icon" width="18" height="18">
+              <svg class="review-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
-          <div class="review-form-wrapper">
+          <div class="review-form-wrapper-textaria">
             <label class="review-form-label" for="user-comment">Comment</label>
             <textarea
-              name="user_comment"
+              name="user-comment"
               class="review-form-textarea"
               placeholder="Text input"
               id="user-comment"
@@ -559,12 +559,12 @@
             <input
               type="checkbox"
               class="review-form-checkbox visually-hidden"
-              name="user_policy"
+              name="user-privacy"
               value="true"
-              id="user-policy"
+              id="user-privacy"
               required
             />
-            <label for="user-policy" class="review-form-checkbox-label"></label>
+            <label for="user-privacy" class="review-form-checkbox-label">
               <span class="review-form-own-checkbox">
                 <svg
                   class="review-form-own-checkbox-icon"
@@ -574,8 +574,8 @@
                   <use href="./images/icons.svg#icon-click"></use>
                 </svg> </span
               >I accept the terms and conditions of the
-              <a href="" class="privacy-policy-link">Privacy Policy</a></label
-            >
+              <a href="" class="privacy-policy-link">Privacy Policy</a>
+            </label>
           </div>
           <button class="review-form-btn" type="submit">Send</button>
         </form>
